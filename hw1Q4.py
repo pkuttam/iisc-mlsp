@@ -1,7 +1,7 @@
 import os
 import scipy.misc as sm
 import numpy as np
-path_image = 'Data/emotion_classification/train/';
+path_image = 'emotion_classification/train/';
 files = os.listdir(path_image)
 L = np.empty(shape=(101*101, len(files)), dtype='float64') 
 for i in range(0,len(files)):
